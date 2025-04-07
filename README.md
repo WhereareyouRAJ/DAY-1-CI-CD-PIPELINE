@@ -13,7 +13,7 @@
 
 ## What i Did 
 - Clone a simple Node.js app
-- Wrote Dockerffile to containerize the app 
+- Wrote Dockerfile to containerize the app 
 - Created Github Actions workflow to: 
   - Build Docker image 
   - Push image to Dockerhub
@@ -21,19 +21,30 @@
 
 
 # Folder structure
-|--.github/workflows/main.yml
-|--Dockerfile
-|--app.js/
-|--package.json
-|--.gitignore
-|--.dockerignore
-|--screenshots/
-|--README.md
-
+<details> 
+<summary> <b>Folder Structure (click to expand)</b></summary>
+ ```DAY-1-CI-CD-PIPELINE/
+ ├── .github/ 
+      └── workflows/ 
+          └── main.yml 
+ ├── screenshots/ 
+     ├── github-actions-success.png 
+     ├── Docker-image-push.png  
+     └── container-running.png 
+ ├── .dockerignore 
+ ├── .gitignore 
+ ├── Dockerfile 
+ ├── README.md 
+ ├── app.js 
+ ├── package.json
+ ```
+</details>
 
 ## Screenshots
 Screenshots available in "/screenshots" folder as proof of task completion
 
 ## Final Result
 Image pushed to DockerHub:
-https://https://hub.docker.com/repository/docker/rajsingh8826/nodejs-demo/general
+https://hub.docker.com/repository/docker/rajsingh8826/nodejs-demo
+
+
