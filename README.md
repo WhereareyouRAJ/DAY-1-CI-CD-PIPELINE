@@ -19,26 +19,31 @@
   - Push image to Dockerhub
 - Manually deployed image using Docker container as I used  Github      hosted runner 
 
-
 # Folder structure
-<details> 
-<summary> <b>Folder Structure (click to expand)</b></summary>
- ```DAY-1-CI-CD-PIPELINE/
- ├── .github/ 
-      └── workflows/ 
-          └── main.yml 
- ├── screenshots/ 
-     ├── github-actions-success.png 
-     ├── Docker-image-push.png  
-     └── container-running.png 
- ├── .dockerignore 
- ├── .gitignore 
- ├── Dockerfile 
- ├── README.md 
- ├── app.js 
- ├── package.json
- ```
+<details>
+<summary><b>Click to expand</b></summary>
+
+```
+
+
+DAY-1-CI-CD-PIPELINE/ 
+├── .github/ 
+│    └── workflows/ 
+│        └── main.yml 
+├── screenshots/ 
+│   ├── build-success.png 
+│   ├── dockerhub-push.png 
+│   └── github-actions.png 
+├── .dockerignore 
+├── .gitignore
+├── Dockerfile 
+├── README.md 
+├── app.js 
+├── package.json 
+```
 </details>
+
+
 
 ## Screenshots
 Screenshots available in "/screenshots" folder as proof of task completion
