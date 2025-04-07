@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-(empty or deleted file)
-=======
-(your Dockerfile code)
->>>>>>> Added CI/CD pipeline
-
 
 # Node.js base image 
 FROM node:18
